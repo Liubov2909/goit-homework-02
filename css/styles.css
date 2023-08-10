@@ -56,6 +56,10 @@ li {
   list-style: none;
 }
 
+.address-class-name {
+  font-style: normal;
+}
+
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -83,11 +87,21 @@ li {
 }
 
 .my-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4D5AE5;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
 }
 
+.my-button:hover,
+.my-button:focus {
+  background-color: #404BBF;
+}
+  
 .section-control {
   background-color: #FFF;
 }
@@ -117,8 +131,10 @@ li {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-name {
