@@ -16,7 +16,7 @@ li {
   background-color: #FFF;
 }
 
-.logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -27,13 +27,10 @@ li {
   text-decoration: none;
   }
 
-.logo-text {
+.header-logo-span {
   color: #2e2f42;
   }
-  
-.studio-text {
-  color: #2e2f42;
-  }
+
 .nav-list {
   list-style: none;
   }
@@ -127,6 +124,10 @@ li {
   background-color: var(--cloud, #F4F4FD);
 }
 
+.team-member {
+  background-color: #FFFFFF;
+}
+
 .team-title {
   font-size: 36px;
   font-weight: 700;
@@ -210,4 +211,8 @@ li {
   line-height: 1.5;
   color: var(--footer-color, #F4F4FD);
   letter-spacing: 0.02em;
+}
+
+.footer-logo-span {
+  color: #f4f4fd;
 }
